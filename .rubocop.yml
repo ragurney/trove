@@ -1,0 +1,165 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - db/schema.rb
+    - vendor/**/*
+    - tmp/**/*
+    - node_modules/**/*
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ClassLength:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/SpecialGlobalVars:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Layout/FirstParameterIndentation:
+  Enabled: false
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineOperationIndentation:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+
+Style/ClassVars:
+  Enabled: false
+
+Style/Semicolon:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/FormatString:
+  EnforcedStyle: percent
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+Style/TernaryParentheses:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
